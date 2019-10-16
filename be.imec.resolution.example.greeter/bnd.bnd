@@ -1,0 +1,3 @@
+Bundle-Version: 1.0.0
+-buildpath: be.imec.resolution.example.util;version=latest
+-privatepackage: be.imec.resolution.example.greeter
