@@ -1,3 +1,4 @@
--runfw: org.eclipse.osgi;version='[3.13.100.v20180827-1536,3.13.100.v20180827-1536]'
+-runfw: org.apache.felix.framework;version='[6.0.3,6.0.4)'
 -runee: JavaSE-1.8
--runbundles: be.imec.resolution.example.greeter;version=latest
+-resolve.effective: active
+-runrequires: bnd.identity;version='latest';id='be.imec.resolution.example.command'
