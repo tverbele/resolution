@@ -2,10 +2,10 @@
 .gradle/
 /generated/
 .metadata
+.recommenders
 
 # Ignore local index files
 cnf/local/index.xml
 cnf/local/index.xml.sha
 cnf/release/index.xml
 cnf/release/index.xml.sha
-
