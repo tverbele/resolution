@@ -1,3 +1,10 @@
 Bundle-Version: 1.0.0
--buildpath: be.imec.resolution.example.util;version=latest
+-buildpath: \
+	be.imec.resolution.example.util;version=latest,\
+	be.imec.resolution.example.api;version=latest,\
+	osgi.cmpn;version=7.0,\
+	osgi.core;version=7.0,\
+	osgi.annotation;version=7.0
 -privatepackage: be.imec.resolution.example.greeter
+Private-Package: be.imec.resolution.example.greeter
+Export-Package: be.imec.resolution.example.api
