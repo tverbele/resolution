@@ -1,0 +1,8 @@
+-buildpath: \
+	be.imec.resolution.example.api;version=latest,\
+	org.apache.felix.gogo.runtime,\
+	osgi.cmpn;version=7.0,\
+	osgi.core;version=7.0,\
+	osgi.annotation;version=7.0
+Bundle-Version: 1.0.0
+Private-Package: be.imec.resolution.example.command
