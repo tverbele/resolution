@@ -1,0 +1,24 @@
+/.recommenders/
+/.metadata/
+/RemoteSystemsTempFiles/
+/.DSStore/
+.DS_Store
+/generated/
+/*.git/
+
+.gradle
+build/
+testdir/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+/.gradle/
+
+# Ignore local index files
+cnf/local/index.xml
+cnf/local/index.xml.sha
+cnf/release/index.xml
+cnf/release/index.xml.sha
