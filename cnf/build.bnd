@@ -13,13 +13,16 @@
 		revision=org.osgi.enroute:impl-index:7.0.0; \
 		readOnly=true; \
 		name="OSGi R7 Reference Implementations"
-
 -plugin.Central: \
 	aQute.bnd.repository.maven.provider.MavenBndRepository; \
 		releaseUrl=https://repo.maven.apache.org/maven2/; \
 		index=${.}/central.maven; \
 		readOnly=true; \
 		name="Maven Central"
+
+-augment.resolver = \
+		org.apache.felix.framework; \
+		capability:='osgi.service;objectClass:List<String>="org.osgi.service.resolver.Resolver"'
 		
 -plugin.Local: \
 	aQute.bnd.deployer.repository.LocalIndexedRepo; \
